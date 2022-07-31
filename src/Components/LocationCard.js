@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 function LocationCard(props) {
   return (
@@ -7,10 +8,16 @@ function LocationCard(props) {
         <Card.Title>{props.tytle}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{props.temperature}</Card.Subtitle>
         <Card.Text>
-          <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2016/11/24/00/58/sunset-1855191_960_720.jpg" />
+          <Card.Img  variant="top" src={props.picture} />
         </Card.Text>
-        <Card.Link href="#">Navigate</Card.Link>
-        <Card.Link href="#">Weather details</Card.Link>
+        <div className="row justify-content-center">  
+        <div className='col-5'>
+        <Button variant="primary">Details</Button>
+        </div>
+        <div className=' col-5'>
+        <Button variant="secondary">Navigate</Button>
+        </div>
+        </div>
       </Card.Body>
     </Card>
   );

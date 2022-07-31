@@ -5,15 +5,18 @@ import InputGroup from 'react-bootstrap/InputGroup';
 const CurrentLocation = () => {
   return (
    
-    <div class="container text-primary">
+    <div className="container text-primary col-8">
         <InputGroup className="mb-3">
         <Form.Control
           placeholder="Where are you right now?"
           aria-label="Where are you right now?"
           aria-describedby="basic-addon2"
         />
-        <Button variant="outline-secondary" id="button-addon2">
+        <Button variant="outline-primary" id="button-addon1">
           Search
+        </Button>
+        <Button variant="outline-secondary" id="button-addon2">
+          Locate Me
         </Button>
       </InputGroup>
    </div>
