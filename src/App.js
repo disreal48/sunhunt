@@ -2,6 +2,7 @@ import './App.css';
 import DistanceAdjust from './Components/FilterParameters/DistanceAdjustment';
 import TempAdjust from './Components/FilterParameters/TemperatureAdjustment';
 import CurrentLocation from './Components/FilterParameters/CurrentLocation';
+import LocationCards from './Components/LocationCards';
 
 function App() {
   return (
@@ -18,6 +19,12 @@ function App() {
   <div class="col-3">
   <DistanceAdjust />
   </div>
+  <div> 
+    <div class="col8">
+    <LocationCards />
+    </div>
+    </div>
+  
  
   </div>
   </>
