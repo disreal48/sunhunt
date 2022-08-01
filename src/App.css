@@ -15,20 +15,22 @@
   grid-row: 1;
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
+  }
 
 .tempAdjust {
-  grid-column: 7 / 9;
+  grid-column: 4 / 6;
   grid-row: 2;
+  text-align: center;
 }
 
 .distanceAdjust {
-  grid-column: 4 / 6;
+  grid-column: 7 / 9;
   grid-row: 2;
+  text-align: center;
 }
 
 .locationCards {
   grid-column: 1 / 12;
   grid-row: 3;
-  padding-top: 5rem;
+ 
 }
