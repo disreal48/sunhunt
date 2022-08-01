@@ -5,8 +5,8 @@ import InputGroup from 'react-bootstrap/InputGroup';
 const CurrentLocation = () => {
   return (
    
-    <div className="container text-primary col-8">
-        <InputGroup className="mb-3">
+    <div>
+        <InputGroup>
         <Form.Control
           placeholder="Where are you right now?"
           aria-label="Where are you right now?"

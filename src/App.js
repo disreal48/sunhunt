@@ -6,16 +6,17 @@ import LocationCards from './Components/LocationCards';
 
 function App() {
   return (
-    <div className='d-grid gap-5'>
-      <div className='row justify-content-center'>
+    <div className='container'>
+      <div className='currentLocation'>
         <CurrentLocation />
       </div>
-      <div className='row justify-content-center'>
+      <div className='tempAdjust'>
         <TempAdjust />
-
+</div>
+<div className='distanceAdjust'>
         <DistanceAdjust />
       </div>
-      <div className='p-row justify-content-center'>
+      <div className='locationCards'>
         <LocationCards />
       </div>
     </div>
