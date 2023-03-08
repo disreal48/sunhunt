@@ -1,12 +1,11 @@
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import InputGroup from "react-bootstrap/InputGroup";
 
 const CurrentLocation = () => {
   return (
-   
     <div>
-        <InputGroup>
+      <InputGroup>
         <Form.Control
           placeholder="Where are you right now?"
           aria-label="Where are you right now?"
@@ -19,8 +18,8 @@ const CurrentLocation = () => {
           Locate Me
         </Button>
       </InputGroup>
-   </div>
-  )
-}
+    </div>
+  );
+};
 
-export default CurrentLocation
+export default CurrentLocation;
