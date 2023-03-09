@@ -10,12 +10,26 @@
   gap: 5px;
 }
 
-.currentLocation {
-  grid-column: 3 / 10;
+.SearchBar {
+  grid-column: 3 / 11;
   grid-row: 1;
   padding-top: 5rem;
   padding-bottom: 5rem;
   }
+
+  .SearchButton{
+    grid-column: 11;
+    grid-row: 1;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    }
+
+    .LocateButton{
+      grid-column: 2;
+      grid-row: 1;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      }
 
 .tempAdjust {
   grid-column: 4 / 6;
